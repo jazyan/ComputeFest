@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import csv
+import matplotlib.pyplot as plt
 
 fwrite = open("num_categories.csv", "w")
 
@@ -10,16 +11,6 @@ testdict = dict(zip(attributes, [[] for i in xrange(len(attributes))]))
 origdict = dict(zip(attributes, [[] for i in xrange(len(attributes))]))
 
 fwrite.write("sex;age;race;marital-status;education;native-country;workclass;occupation;salary-class\n")
-
-def racemap (x):
-    if x == 'Amer-Indian-Eskimo':
-        return 0
-    elif x == 'Asian-Pac-Islander':
-        return 1
-    elif x == 'White':
-        return 2
-    else:
-        return 3
 
 with open('CC_test1.csv', 'rb') as csvreader:
     with open('CC_test_orig.csv', 'rb') as csvreader2:
@@ -90,6 +81,3 @@ with open('CC_test1.csv', 'rb') as csvreader:
             for a in attributes:
                 testdict[a].append(row[a])
 
-#for a in attributes:
-#    print a
-#    print set(testdict[a]), set(origdict[a])
