@@ -19,6 +19,7 @@ for key in origdict:
     keyli = list(set(origdict[key]))
     mapping = {keyli[i]:i for i in range(len(keyli))}
     dictkeys[key] = mapping
+    print key
     print dictkeys[key]
 
 for row in spam:
