@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import csv
+import matplotlib.pyplot as plt
 
 attributes = ['sex', 'age', 'race', 'marital-status', 'education', 'native-country', 'workclass', 'occupation', 'salary-class']
 
@@ -21,3 +22,13 @@ with open('CC_test1.csv', 'rb') as csvreader:
 for a in attributes:
     print a
     print set(testdict[a]), set(origdict[a])
+
+
+def f(x):
+    if x == 'Male':
+        return 1
+    else:
+        return 0
+
+plt.scatter(map(f, origdict['sex']), map(int, origdict['age']))
+plt.show()
