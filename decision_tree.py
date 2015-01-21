@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 # Usage:
-# ./decision_tree.py TARGET_ATTRIBUTE TRAIN_FILE TEST_FILE
+# ./decision_tree.py TARGET_ATTRIBUTE TRAIN_FILE TEST_FILE OUT_FILE
 # Trains on TRAIN_FILE and outputs TEST_FILE with desired TARGET_ATTRIBUTE
-# replaced by decision tree predictions
+# replaced by decision tree predictions into OUT_FILE
 # TARGET_ATTRIBUTE must be one of: sex, age, race, marital-status, education,
 # education, native-country, workclass, occupation, salary-class
 
@@ -50,7 +50,15 @@ for j in xrange(n_test):
         if z[j][i] == '*':
             z[j][i] = 0
 
+fout = open(sys.argv[4], 'w')
 results = map(lambda x: clf.predict(x), z)
-print target
+fout.write(target + '\n')
 for r in results:
-    print r[0]
+    fout.write(r[0] + '\n')
+
+fail = 0
+for i in xrange(len(results)):
+    if results[i][0] != train[target][i]:
+        fail += 1
+
+print 'Number wrong:', fail
