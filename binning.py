@@ -1,10 +1,17 @@
+#!/usr/bin/env python
+
+# Usage: ./binning.py TRAIN_FILE TEST_FILE OUT_FILE
+# Converts the categories in TRAIN_FILE to the corresponding bins
+# and prints the result in OUTFILE
+
 import csv
+import sys
 
 bins = {}
-fwrite = open('num_categories.csv', 'w')
+fwrite = open(sys.argv[3], 'w')
 
-with open('CC_test1_clean.csv', 'rb') as csvfile:
-    with open('CC_test1_anon.csv', 'rb') as csvfile2:
+with open(sys.argv[1], 'rb') as csvfile:
+    with open(sys.argv[2], 'rb') as csvfile2:
         spamreader = csv.DictReader(csvfile)
         spamreader2 = csv.DictReader(csvfile2)
         spam1 = []
