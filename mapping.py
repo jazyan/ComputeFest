@@ -1,3 +1,5 @@
+# python mapping.py ORIGFILE OUTPUTFILE
+
 import csv
 import sys
 
