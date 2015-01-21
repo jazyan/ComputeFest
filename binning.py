@@ -12,8 +12,8 @@ fwrite = open(sys.argv[3], 'w')
 
 with open(sys.argv[1], 'rb') as csvfile:
     with open(sys.argv[2], 'rb') as csvfile2:
-        spamreader = csv.DictReader(csvfile, dialect=csv.excel_tab)
-        spamreader2 = csv.DictReader(csvfile2, dialect=csv.excel_tab)
+        spamreader = csv.DictReader(csvfile)
+        spamreader2 = csv.DictReader(csvfile2)
         spam1 = []
         spam2 = []
         for row in spamreader:
@@ -37,4 +37,3 @@ with open(sys.argv[1], 'rb') as csvfile:
         fwrite.write(",".join(spam1[0]) + "\n")
         for y in range(len(spam1)):
             fwrite.write(",".join(spam1[y].values()) + "\n")
-
