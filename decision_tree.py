@@ -17,12 +17,9 @@ train = {}
 with open(sys.argv[2], 'rb') as csvreader:
     c = csv.DictReader(csvreader)
     attributes = c.fieldnames
-    print attributes
     train = dict(zip(attributes, [[] for i in xrange(len(attributes))]))
     for row in c:
         for a in attributes:
-            print train
-            print row
             train[a].append(row[a])
 n_train = len(train[attributes[0]])
 
@@ -56,4 +53,4 @@ for j in xrange(n_test):
 results = map(lambda x: clf.predict(x), z)
 print target
 for r in results:
-    print r
+    print r[0]
