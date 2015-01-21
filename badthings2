@@ -1,0 +1,68 @@
+import csv
+
+
+sex = []
+age = []
+race = []
+maritalstatus= []
+education = []
+nativecountry = [] 
+workclass = []
+occupation = []
+salaryclass = []
+
+i = 0
+error = 0
+
+bins = {}
+
+with open('CC_test1_clean.csv', 'rb') as csvfile:
+    with open('CC_test1_anon.csv', 'rb') as csvfile2:
+        spamreader = csv.DictReader(csvfile)
+        spamreader2 = csv.DictReader(csvfile2)
+        spam1 = []
+        spam2 = []
+        for row in spamreader:
+            spam1.append(row)
+
+
+        for row in spamreader2:
+            spam2.append(row)
+
+
+        for j in range(len(spam1)):
+            row = spam1[j]
+            row2 = spam2[j]
+
+            for key in row:
+                bins[row[key]] = row2[key]
+
+
+            sex.insert(j, row['sex'] + " /"  +row2['sex'])
+            age.insert(j, row['age'] + " /" + row2['age'])
+            maritalstatus.insert(j, row['marital-status']+ " /"  + row2['marital-status'])
+            education.insert(j, row['education'] + " /" + row2['education'])
+            nativecountry.insert(j, row['native-country'] + " /" + row2['native-country'])
+            workclass.insert(j,row['workclass'] + " " + row2['workclass'])
+            occupation.insert(j, row['occupation'] + " /" + row2['occupation'])
+            salaryclass.insert(j, row['salary-class'] + " /" + row2['salary-class'])
+
+        for x in range(len(spam1)):
+            row = spam1[x]
+            for key in row:
+                row[key] = bins[row[key]]
+
+        for y in range(len(spam1)):
+            print spam1[y]
+
+
+print set(age)
+print set(maritalstatus)
+print set(education)
+print set(nativecountry)
+print set(workclass)
+print set(occupation)
+print set(salaryclass)
+
+for key in bins:
+    print 
