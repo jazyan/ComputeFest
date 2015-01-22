@@ -1,4 +1,4 @@
-# python split_data.py ORIG NEW
+#!usr/bin/env python
 
 import csv
 import sys
