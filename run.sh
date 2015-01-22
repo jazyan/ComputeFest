@@ -5,7 +5,7 @@ echo "Test File: " $2
 echo "Target Attribute: " $3
 
 echo "Converting to numbers..."
-./cat2num.py binned.csv num_train.csv
+./cat2num.py $1 num_train.csv
 cat mapping.txt > mapping_train.txt
 ./cat2num.py $2 num_test.csv
 cat mapping.txt > mapping_test.txt
