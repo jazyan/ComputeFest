@@ -1,0 +1,31 @@
+wifeage,wifeedu,husbandedu,numchildren,wifereligion,wifeworking,husbandoccupation,stdofliving,mediaexp,contramethod
+*,high,high,"[6, 9[",non-islam,No,1,high,Good,Long-term
+*,medium,high,"[3, 6[",islam,Yes,3,medium-high,Good,Short-term
+*,high,high,"[0, 3[",non-islam,No,3,high,Good,No-use
+*,medium,medium-high,"[6, 9[",islam,No,3,medium-high,Not Good,No-use
+*,medium,high,"[3, 6[",islam,No,3,high,Good,No-use
+*,medium,medium-high,"[3, 6[",islam,No,3,low,Not Good,No-use
+*,medium-high,medium,"[0, 3[",islam,No,2,medium,Good,No-use
+*,medium-high,high,"[0, 3[",non-islam,No,2,medium-high,Good,No-use
+*,medium-high,medium-high,"[3, 6[",islam,No,2,high,Good,Short-term
+*,low,medium,"[3, 6[",islam,No,3,medium,Not Good,No-use
+*,high,high,"[6, 9[",islam,No,3,medium-high,Good,Long-term
+*,medium,medium-high,"[6, 9[",islam,No,3,medium,Not Good,No-use
+*,medium-high,medium-high,"[0, 3[",islam,No,3,medium,Good,Short-term
+*,high,high,"[0, 3[",islam,Yes,1,high,Good,Long-term
+*,high,high,"[0, 3[",non-islam,No,3,high,Good,Short-term
+*,medium,high,"[0, 3[",islam,No,1,high,Good,Long-term
+*,high,high,"[0, 3[",islam,Yes,2,high,Good,No-use
+*,high,high,"[0, 3[",islam,No,3,high,Good,Short-term
+*,high,high,"[0, 3[",islam,No,2,high,Good,No-use
+*,high,high,"[3, 6[",islam,No,1,high,Good,No-use
+*,high,high,"[3, 6[",islam,No,3,medium-high,Good,Long-term
+*,high,high,"[0, 3[",islam,Yes,1,high,Good,Short-term
+*,medium-high,high,"[3, 6[",islam,No,1,high,Good,No-use
+*,medium-high,high,"[3, 6[",islam,No,1,medium-high,Good,No-use
+*,medium-high,medium-high,"[0, 3[",islam,No,2,high,Good,No-use
+*,high,high,"[3, 6[",islam,No,3,medium-high,Good,Short-term
+*,low,medium-high,"[0, 3[",islam,No,3,low,Good,Short-term
+*,medium-high,high,"[0, 3[",islam,No,2,low,Good,No-use
+*,medium,medium-high,"[0, 3[",islam,No,3,high,Good,No-use
+*,high,high,"[0, 3[",islam,No,1,high,Good,No-use

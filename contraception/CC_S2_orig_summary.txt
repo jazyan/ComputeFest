@@ -1,0 +1,10 @@
+wifeage: "*"
+wifeedu: "high", "low", "medium", "medium-high"
+husbandedu: "high", "low", "medium", "medium-high"
+numchildren: "[0, 3[", "[3, 6[", "[6, 9[", "[9, 12["
+wifereligion: "islam", "non-islam"
+wifeworking: "No", "Yes"
+husbandoccupation: 1-4
+stdofliving: "high", "low", "medium", "medium-high"
+mediaexp: "Good", "Not Good"
+contramethod: "Long-term", "No-use", "Short-term"

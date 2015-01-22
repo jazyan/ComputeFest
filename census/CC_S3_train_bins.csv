@@ -1,0 +1,31 @@
+detailed household summary in household,education,class of worker,citizenship,detailed household and family status,tax filer status,gender,Age,full or part time employment status,hispanic origin,marital status,race,industry code,occupation code,num persons worked for employer,weeks worked in year
+ Householder,Associates degree-academic program, government, Native- Born in the United States, Householder, Joint both under 65, Male,40, Full-time schedules, All other,*, White,50,34,6,52
+ Householder,Bachelors degree(BA AB BS), government, Native- Born in the United States, Nonfamily householder, Single, Female,[25, 30[, Full-time schedules, All other,*, White,43,10,5,52
+ Spouse of householder,middle school, Private, Native- Born in the United States, Spouse of householder, Joint both under 65, Female,[55, 60[, Children or Armed Forces, Mexican-American,*, White,44,[30, 35[,1,52
+ Householder, High school graduate,government, Native- Born in the United States, Householder, Single, Male,47, Full-time schedules, All other,*, White,42,30,6,52
+ Householder, High school graduate, Private, Native- Born in the United States, Nonfamily householder, Single, Male,[15, 20[, Children or Armed Forces, All other,*, White,13,36,4,52
+ Spouse of householder, Masters degree(MA MS MEng MEd MSW MBA), Private, Native- Born in the United States, Spouse of householder, Joint both under 65, Male,[50, 55[, Full-time schedules, All other,*, White,43,9,4,52
+ Nonrelative of householder,some high school, Private, Native- Born in the United States, Secondary individual, Single, Male,[30, 35[, Children or Armed Forces, All other,*, Black,[30, 35[,38,1,52
+ Householder,  Some college but no degree,Self-employed, Native- Born in the United States, Householder, Joint both under 65, Male,41, Children or Armed Forces, All other,*, White,2,43,1,52
+ Householder,Bachelors degree(BA AB BS), government, Native- Born in the United States, Householder, Joint both under 65, Female,[55, 60[, Children or Armed Forces, All other,*, White,43,10,6,52
+ Child 18 or older, High school graduate, Private, Native- Born in the United States, Child 18+ never marr Not in a subfamily, Single, Male,41, Children or Armed Forces, All other,*, White,29,26,6,52
+ Child 18 or older,  Some college but no degree, Private, Native- Born in the United States, Child 18+ never marr Not in a subfamily, Nonfiler, Male,[20, 25[, Children or Armed Forces, All other,*, White,34,34,1,12
+ Spouse of householder, High school graduate, Private, Foreign born- U S citizen by naturalization, Spouse of householder, Joint both under 65, Female,[55, 60[, Children or Armed Forces, All other,*, White,36,[25, 30[,2,49
+ Spouse of householder, High school graduate, government, Native- Born in the United States, Spouse of householder, Joint both under 65, Female,[50, 55[, Children or Armed Forces, All other,*, White,43,23,4,44
+ Spouse of householder,Bachelors degree(BA AB BS), Private, Native- Born in the United States, Spouse of householder, Joint both under 65, Female,40, Full-time schedules, All other,*, White,[30, 35[,22,6,52
+ Other relative of householder, High school graduate, Private, Foreign born- Not a citizen of U S , Other Rel 18+ ever marr not in subfamily, Single, Female,[50, 55[, Children or Armed Forces, Central or South American,*, White,[30, 35[,19,6,52
+ Child 18 or older, High school graduate, Private, Foreign born- Not a citizen of U S , Child 18+ never marr Not in a subfamily, Single, Male,[25, 30[, Children or Armed Forces, Central or South American,*, White,39,36,3,52
+ Spouse of householder,vocational, government, Native- Born in the United States, Spouse of householder, Joint both under 65, Female,[35, 40[, Children or Armed Forces, All other,*, White,43,23,1,52
+ Householder, High school graduate, Private, Native- Born in the United States, Householder, Head of household, Female,[25, 30[, Children or Armed Forces, All other,*, Black,21,36,6,42
+ Householder,Bachelors degree(BA AB BS), Private, Native- Born in the United States, Householder, Joint both under 65, Male,38, Children or Armed Forces, All other,*, White,45,4,6,52
+ Householder, High school graduate, Private, Native- Born in the United States, Householder, Head of household, Female,26, Unemployed full-time, Mexican-American,*, Other,16,26,4,35
+ Householder,Bachelors degree(BA AB BS), Private, Native- Born in the United States, Nonfamily householder, Single, Female,[30, 35[, Full-time schedules, All other,*, White,45,3,2,52
+ Spouse of householder,Bachelors degree(BA AB BS),Self-employed, Native- Born in the United States, Spouse of householder, Joint both under 65, Female,40, Full-time schedules, All other,*, White,9,2,1,52
+ Spouse of householder, High school graduate, Private, Native- Born in the United States, Spouse of householder, Joint both under 65, Female,48, Children or Armed Forces, All other,*, White,41,30,5,40
+ Householder, Masters degree(MA MS MEng MEd MSW MBA), Private, Native- Born in the United States, Nonfamily householder, Single, Male,34, Full-time schedules, All other,*, White,43,9,6,44
+ Householder,  Some college but no degree, Private, Native- Born in the United States, Householder, Head of household, Male,[25, 30[, Children or Armed Forces, All other,*, White,13,26,6,52
+ Householder,Bachelors degree(BA AB BS), Private, Native- Born in the United States, Householder, Joint both under 65, Male,[25, 30[, Children or Armed Forces, All other,*, White,[30, 35[,6,3,52
+ Householder,vocational, government, Native- Born in the United States, Householder, Head of household, Male,[60, 65[, Children or Armed Forces, All other,*, White,47,8,6,52
+ Householder, High school graduate, government, Native- Born in the United States, Nonfamily householder, Single, Female,[30, 35[, Children or Armed Forces, All other,*, White,43,38,6,48
+ Other relative of householder, High school graduate,Self-employed, Native- Born in the United States, Other Rel 18+ ever marr not in subfamily, Single, Male,[60, 65[, Full-time schedules, All other,*, White,4,34,1,52
+ Householder, High school graduate, Private, Native- Born in the United States, Householder, Joint both under 65, Male,[30, 35[, Full-time schedules, All other,*, White,4,3,1,52
