@@ -3,7 +3,7 @@ class of worker: " Private", " government", "Never worked", "Self-employed", "Wi
 industry code: 0-51
 occupation code: 0-46
 education: "  Less than 1st grade", "  Some college but no degree", " Doctorate degree(PhD EdD)", " High school graduate", " Masters degree(MA MS MEng MEd MSW MBA)", " Prof school degree (MD DDS DVM LLB JD)", "Associates degree-academic program", "Bachelors degree(BA AB BS)", "middle school", "primary school", "some high school", "vocational"
-marital status: "*"
+marital status: " Divorced", " Married-A F spouse present", " Married-      civilian spouse present", " Married-spouse absent", " Never married", "     Separated", " Widowed"
 race: " Amer Indian Aleut or Eskimo", " Asian or Pacific Islander", " Black", " Other", " White"
 hispanic origin: " All other", " Central or South American", " Chicano", " Cuban", " Do not know", " Mexican (Mexicano)", " Mexican-American", " NA", " Other Spanish", " Puerto Rican"
 gender: " Female", " Male"
