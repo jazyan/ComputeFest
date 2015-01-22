@@ -1,4 +1,4 @@
-wifeage: "*"
+wifeage: 16-49
 wifeedu: "high", "low", "medium", "medium-high"
 husbandedu: "high", "low", "medium", "medium-high"
 numchildren: "[0, 3[", "[3, 6[", "[6, 9[", "[9, 12["
