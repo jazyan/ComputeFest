@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # python num2cat.py NUMFILE CATFILE
 
 import csv

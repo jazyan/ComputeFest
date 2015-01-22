@@ -8,5 +8,5 @@ orig = open(sys.argv[1], 'rb')
 new = open(sys.argv[2], 'w')
 
 for line in orig:
-    line = re.sub(r'(\[\d+), (\d+)', r'\1; \2', line)
+    line = re.sub(r'(\[\w+\.*\w*), (\w+\.*\w*)', r'\1; \2', line)
     new.write(line)
