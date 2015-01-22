@@ -34,4 +34,4 @@ def bin(train, test, out):
 
             for y in range(len(spam1)):
                 fwrite.write(",".join(spam1[y].values()) + "\n")
-            return  spam1
+            return spam1

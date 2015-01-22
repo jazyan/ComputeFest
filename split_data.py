@@ -17,11 +17,11 @@ for row in origreader:
         training.write(','.join(row) + "\n")
         test.write(','.join(row) + "\n")
     x = random.randint(1, 100)
-    if (x < 10):
+    if (x == 1):
         ctr += 1
         training.write(','.join(map(str, row.values())) + "\n")
     else:
         test.write(','.join(map(str, row.values())) + "\n")
         continue;
 
-print "% CHOSEN", str(float(ctr)/float(total))
+print "# chosen", ctr, "% CHOSEN", str(float(ctr)/float(total))

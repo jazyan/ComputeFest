@@ -46,7 +46,7 @@ for row in spam:
 fwrite.write(','.join(spam[0]) + "\n")
 for row in spam:
     fwrite.write(','.join(map(str, row.values())) + "\n")
-
+'''
 cat = f_num2cat.readline()
 f_num.write(cat)
 cat = cat.rstrip('\n')
@@ -55,3 +55,4 @@ for num in f_num2cat:
     for key in mapping:
         if mapping[key] == int(num):
             f_num.write(key + '\n')
+'''

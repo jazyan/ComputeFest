@@ -1,1 +1,5 @@
 code for ComputeFest (http://computefest.seas.harvard.edu/student-challenge)
+
+1. clean_comma.py - no commas in range
+2. binning2.py - convert original file to bins
+3. mapping.py - convert bins to numbers
