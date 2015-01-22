@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # python mapping.py ORIGFILE OUTPUTFILE
 # mapping.txt will contain the mappings
 
