@@ -1,28 +1,34 @@
-#!/usr/bin/env python
-# python num2cat.py NUMFILE CATFILE
+# python cat2num.py MAPPING ORIG NEW
+# mapping.txt will contain the mappings
 
 import csv
 import sys
+import re
 
-num = open(sys.argv[1], 'r')
-cat = open(sys.argv[2], 'w')
+mapping = open(sys.argv[1], 'r')
+orig = open(sys.argv[2], 'r')
+new = open(sys.argv[3], 'w')
 
-# file with mappings
-mapread = open('mapping.txt', 'r')
+dictkey = {}
+for line in mapping:
+    for i in range(len(line)):
+        if line[i] == ':':
+            key = line[0:i]
+            range_to_rep = re.search(r': \d+-\d+', line[i:len(line)])
+            if range_to_rep:
+                num_find = re.compile('(\d+)')
+                range_num = num_find.findall(line[i+2:len(line)])
+                if len(range_num) == 2:
+                    range_num = map(int, range_num)
+                    dictkey[key] = [str(i) for i in range(range_num[0], range_num[1]+1)]
+            else:
+                dictkey[key] = line[i+2:len(line)].split(',')
+                dictkey[key] = [elt.strip().strip('\"') for elt in dictkey[key]]
+            break;
 
-attr = num.readline()
-mapping = {}
-line = mapread.readline()
-while(line != attr):
-    line = mapread.readline()
+key = orig.readline().strip()
 
-categ = mapread.readline().rstrip('\n').split(';')
-numb = mapread.readline().rstrip('\n').split(';')
-mapping = {categ[i]:int(numb[i]) for i in range(len(categ))}
-print mapping
-
-cat.write(attr)
-for n in num:
-    for key in mapping:
-        if mapping[key] == int(n):
-            cat.write(key + '\n')
+new.write(key + "\n")
+for row in orig:
+    index = int(row)
+    new.write(dictkey[key][index] + "\n")

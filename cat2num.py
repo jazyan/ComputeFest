@@ -15,7 +15,7 @@ for line in mapping:
     for i in range(len(line)):
         if line[i] == ':':
             key = line[0:i]
-            range_to_rep = re.search(r'\d+-\d+', line[i+2:len(line)])
+            range_to_rep = re.search(r': \d+-\d+', line[i:len(line)])
             if range_to_rep:
                 num_find = re.compile('(\d+)')
                 range_num = num_find.findall(line[i+2:len(line)])
