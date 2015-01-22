@@ -1,0 +1,16 @@
+Age: "[15; 20[", "[20; 25[", "[25; 30[", "[30; 35[", "[35; 40[", "[40; 45[", "[45; 50[", "[50; 55[", "[55; 60[", "[60; 65[", "[65; 70[", "[70; 75[", "[75; 80[", "[80; 85[", "[90; 91["
+class of worker: " Private", " government", "Never worked", "Self-employed", "Without pay", "government"
+industry code: 0-51
+occupation code: 0-46
+education: "  Less than 1st grade", "  Some college but no degree", " Doctorate degree(PhD EdD)", " High school graduate", " Masters degree(MA MS MEng MEd MSW MBA)", " Prof school degree (MD DDS DVM LLB JD)", "Associates degree-academic program", "Bachelors degree(BA AB BS)", "middle school", "primary school", "some high school", "vocational"
+marital status: "*"
+race: " Amer Indian Aleut or Eskimo", " Asian or Pacific Islander", " Black", " Other", " White"
+hispanic origin: " All other", " Central or South American", " Chicano", " Cuban", " Do not know", " Mexican (Mexicano)", " Mexican-American", " NA", " Other Spanish", " Puerto Rican"
+gender: " Female", " Male"
+full or part time employment status: " Children or Armed Forces", " Full-time schedules", " Not in labor force", " PT for econ reasons usually FT", " PT for econ reasons usually PT", " PT for non-econ reasons usually FT", " Unemployed full-time", " Unemployed part- time"
+tax filer status: " Head of household", " Joint both 65+", " Joint both under 65", " Joint one under 65 & one 65+", " Nonfiler", " Single"
+detailed household and family status: " Child 18+ ever marr Not in a subfamily", " Child 18+ ever marr RP of subfamily", " Child 18+ never marr Not in a subfamily", " Child 18+ never marr RP of subfamily", " Child 18+ spouse of subfamily RP", " Child <18 never marr RP of subfamily", " Child <18 never marr not in subfamily", " Child under 18 of RP of unrel subfamily", " Grandchild 18+ never marr not in subfamily", " Grandchild 18+ spouse of subfamily RP", " Grandchild <18 never marr child of subfamily RP", " Grandchild <18 never marr not in subfamily", " Householder", " In group quarters", " Nonfamily householder", " Other Rel 18+ ever marr RP of subfamily", " Other Rel 18+ ever marr not in subfamily", " Other Rel 18+ never marr RP of subfamily", " Other Rel 18+ never marr not in subfamily", " Other Rel 18+ spouse of subfamily RP", " Other Rel <18 never marr child of subfamily RP", " Other Rel <18 never marr not in subfamily", " RP of unrelated subfamily", " Secondary individual", " Spouse of RP of unrelated subfamily", " Spouse of householder"
+detailed household summary in household: " Child 18 or older", " Child under 18 never married", " Group Quarters- Secondary individual", " Householder", " Nonrelative of householder", " Other relative of householder", " Spouse of householder"
+num persons worked for employer: 0-6
+citizenship: " Foreign born- Not a citizen of U S ", " Foreign born- U S citizen by naturalization", " Native- Born abroad of American Parent(s)", " Native- Born in Puerto Rico or U S Outlying", " Native- Born in the United States"
+weeks worked in year: 0-52
