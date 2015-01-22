@@ -58,7 +58,8 @@ for r in results:
 
 fail = 0
 for i in xrange(len(results)):
-    if results[i][0] != train[target][i]:
+    if results[i][0] != test[target][i]:
         fail += 1
 
 print 'Number wrong:', fail
+print "% wrong: ", float(fail)/float(len(results))*100
